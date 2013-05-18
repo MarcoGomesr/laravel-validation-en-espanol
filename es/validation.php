@@ -52,7 +52,7 @@ return array(
 	),
 	"not_in"         => "El :attribute seleccionado es invalido.",
 	"numeric"        => "El :attribute debe ser un numero.",
-	"required"       => "El :attribute es requerido",
+	"required"       => "El campo :attribute es requerido",
 	"same"           => "El :attribute y :other debe coincidir.",
 	"size"           => array(
 		"numeric" => "El :attribute must be :size.",
@@ -94,6 +94,9 @@ return array(
 	|
 	*/
 
-	'attributes' => array(),
+	'attributes' => array(
+		'username' => 'usuario',
+		'password' => 'contraseña'
+	),
 
 );
