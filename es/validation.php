@@ -96,7 +96,8 @@ return array(
 
 	'attributes' => array(
 		'username' => 'usuario',
-		'password' => 'contraseña'
+		'password' => 'contraseña',
+    		'correo'=>'Correo Electrónico'
 	),
 
 );
