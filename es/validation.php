@@ -35,7 +35,7 @@ return array(
 "confirmed"      => "El campo :attribute confirmación no coincide.",
 "date"           => "El campo :attribute no es una fecha válida.",
 "date_format" 	 => "El campo :attribute no corresponde con el formato :format.",
-"different"      => "El campo :attribute and :other debe ser diferente.",
+"different"      => "Los campos :attribute y :other deben ser diferentes.",
 "digits"         => "El campo :attribute debe ser de :digits dígitos.",
 "digits_between" => "El campo :attribute debe terner entre :min y :max dígitos.",
 "email"          => "El formato del :attribute es inválido.",
