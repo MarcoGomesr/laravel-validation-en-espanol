@@ -32,7 +32,7 @@ return array(
 			"string"  => "El campo :attribute debe estar entre :min - :max caracteres.",
 			"array"   => "El campo :attribute debe tener entre :min y :max elementos.",
 	),
-	"confirmed"      => "El campo :attribute confirmación no coincide.",
+	"confirmed"      => "El campo de confirmación de :attribute no coincide.",
 	"date"           => "El campo :attribute no es una fecha válida.",
 	"date_format" 	 => "El campo :attribute no corresponde con el formato :format.",
 	"different"      => "Los campos :attribute y :other deben ser diferentes.",
