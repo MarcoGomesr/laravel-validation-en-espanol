@@ -37,7 +37,7 @@ return array(
 	"date_format" 	 => "El campo :attribute no corresponde con el formato :format.",
 	"different"      => "Los campos :attribute y :other deben ser diferentes.",
 	"digits"         => "El campo :attribute debe ser de :digits dígitos.",
-	"digits_between" => "El campo :attribute debe terner entre :min y :max dígitos.",
+	"digits_between" => "El campo :attribute debe tener entre :min y :max dígitos.",
 	"email"          => "El formato del :attribute es inválido.",
 	"exists"         => "El campo :attribute seleccionado es inválido.",
 	"image"          => "El campo :attribute debe ser una imagen.",
@@ -70,7 +70,7 @@ return array(
 	"same"                  => "El campo :attribute y :other debe coincidir.",
 	"size"                  => array(
 				"numeric" => "El campo :attribute debe ser :size.",
-				"file"    => "El campo :attribute debe terner :size kilobytes.",
+				"file"    => "El campo :attribute debe tener :size kilobytes.",
 				"string"  => "El campo :attribute debe tener :size caracteres.",
 				"array"   => "El campo :attribute debe contener :size elementos.",
 	),
