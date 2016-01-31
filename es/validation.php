@@ -32,6 +32,7 @@ return array(
 			"string"  => "El campo :attribute debe estar entre :min - :max caracteres.",
 			"array"   => "El campo :attribute debe tener entre :min y :max elementos.",
 	),
+	"boolean"        => "El campo :attribute debe ser verdadero o falso.",
 	"confirmed"      => "El campo de confirmación de :attribute no coincide.",
 	"date"           => "El campo :attribute no es una fecha válida.",
 	"date_format" 	 => "El campo :attribute no corresponde con el formato :format.",
@@ -75,8 +76,9 @@ return array(
 				"array"   => "El campo :attribute debe contener :size elementos.",
 	),
 
-	"unique" => "El campo :attribute ya ha sido tomado.",
-	"url"    => "El formato de :attribute es inválido.",
+	"unique"         => "El campo :attribute ya ha sido tomado.",
+	"url"            => "El formato de :attribute es inválido.",
+	"timezone"       => "El campo :attribute debe ser una zona válida.",
 
 	/*
 	|--------------------------------------------------------------------------
