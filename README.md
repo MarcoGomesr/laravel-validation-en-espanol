@@ -1,19 +1,15 @@
-laravel-español
+Localización de Laravel 5.4 al español
 ===============
-
-mensajes de alerta traducidos al español
 
 
 ##Instrucciones:
 
-1. descargar la carpeta "es" y colocarla dentro de /application/language/
+1. Descargar la carpeta "es" y colocarla dentro de /resources/lang/
 
-2. luego editar el archivo application.php en la carpeta config y cambia
+2. Luego abrir el archivo /config/app.php y editar la siguiente línea
 
-        'language' => 'en',
+        'locale' => 'en',
 
       por 
   
-        'language' => 'es',
-
-3. y eso es todo
+        'locale' => 'es',
