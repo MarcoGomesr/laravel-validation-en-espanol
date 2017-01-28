@@ -1,10 +1,10 @@
 <?php
 
-return array(
+return [
 
 	/*
 	|--------------------------------------------------------------------------
-	| Password Reminder Language Lines
+	| Password Reset Language Lines
 	|--------------------------------------------------------------------------
 	|
 	| The following language lines are the default lines which match reasons
@@ -13,12 +13,10 @@ return array(
 	|
 	*/
 
-	"password" => "La contraseña debe tener al menos 6 caracteres y coincidir con la confirmación.",
+    'password' => 'Las contraseñas deben contener al menos 6 caracters y coincidir.',
+    'reset' => 'Su contraseña ha sido cambiada.',
+    'sent' => 'Le hemos enviado un correo de cambio de contraseña!',
+    'token' => 'El código de cambio de contraseña es inválido.',
+    'user' => "No podemos encontrar un usuario con ese nombre.",
 
-	"user" => "No podemos encontrar el usuario con esa dirección de correo.",
-
-	"token" => "Este token de reestablecimiento de contraseña es inválido.",
-
-	"sent" => "Recordatorio de contraseña enviado!",
-
-);
+];
