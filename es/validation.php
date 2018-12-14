@@ -4,12 +4,12 @@ return [
 
 	/*
 	|--------------------------------------------------------------------------
-	| Validation Language Lines
+	| Validación del idioma
 	|--------------------------------------------------------------------------
 	|
-	| The following language lines contain the default error messages used by
-	| the validator class. Some of these rules have multiple versions such
-	| as the size rules. Feel free to tweak each of these messages here.
+  | Las siguientes líneas de idioma contienen los mensajes de error predeterminados utilizados por
+  | La clase validadora. Algunas de estas reglas tienen múltiples versiones tales
+  | como las reglas de tamaño. Siéntase libre de modificar cada uno de estos mensajes aquí.
 	|
 	*/
 
@@ -115,12 +115,12 @@ return [
 
 	/*
 	|--------------------------------------------------------------------------
-	| Custom Validation Language Lines
+	| Validación del idioma personalizado
 	|--------------------------------------------------------------------------
 	|
-	| Here you may specify custom validation messages for attributes using the
-	| convention "attribute.rule" to name the lines. This makes it quick to
-	| specify a specific custom language line for a given attribute rule.
+	|	Aquí puede especificar mensajes de validación personalizados para atributos utilizando el
+	| convención "attribute.rule" para nombrar las líneas. Esto hace que sea rápido
+	| especifique una línea de idioma personalizada específica para una regla de atributo dada.
 	|
 	*/
 
@@ -132,12 +132,12 @@ return [
 
 	/*
 	|--------------------------------------------------------------------------
-	| Custom Validation Attributes
+	| Atributos de validación personalizados
 	|--------------------------------------------------------------------------
 	|
-	| The following language lines are used to swap attribute place-holders
-	| with something more reader friendly such as E-Mail Address instead
-	| of "email". This simply helps us make messages a little cleaner.
+  | Las siguientes líneas de idioma se utilizan para intercambiar los marcadores de posición de atributo.
+  | con algo más fácil de leer, como la dirección de correo electrónico.
+  | de "email". Esto simplemente nos ayuda a hacer los mensajes un poco más limpios.
 	|
 	*/
 
