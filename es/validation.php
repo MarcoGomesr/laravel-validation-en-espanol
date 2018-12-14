@@ -107,12 +107,13 @@ return [
 		'string'  => 'El campo :attribute debe tener :size caracteres.',
 		'array'   => 'El campo :attribute debe contener :size elementos.',
 	],
+	'starts_with'           => 'El :attribute debe empezar con uno de los siguientes valores :values',
 	'string'                => 'El campo :attribute debe ser una cadena.',
 	'timezone'              => 'El campo :attribute debe ser una zona válida.',
 	'unique'                => 'El campo :attribute ya ha sido tomado.',
 	'uploaded'              => 'El campo :attribute no ha podido ser cargado.',	
 	'url'                   => 'El formato de :attribute es inválido.',
-
+  'uuid'                  => 'El :attribute debe ser un UUID valido.',
 	/*
 	|--------------------------------------------------------------------------
 	| Validación del idioma personalizado
