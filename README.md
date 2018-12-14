@@ -1,15 +1,23 @@
-Localización de Laravel 5.4 al español
-===============
+# Localización de Laravel 5.6 al español
 
+## Instalación:
 
-##Instrucciones:
+1. Descargar la carpeta `es` y colocarla dentro del directorio `/resources/lang/` de tu proyecto.
+2. Abrir el archivo `/config/app.php` y remplazar el valor de la variable `locale` por `es`.
 
-1. Descargar la carpeta "es" y colocarla dentro de /resources/lang/
+```php
 
-2. Luego abrir el archivo /config/app.php y editar la siguiente línea
+  /*
+  |--------------------------------------------------------------------------
+  | Application Locale Configuration
+  |--------------------------------------------------------------------------
+  |
+  | The application locale determines the default locale that will be used
+  | by the translation service provider. You are free to set this value
+  | to any of the locales which will be supported by the application.
+  |
+  */
 
-        'locale' => 'en',
+  'locale' => 'es',
 
-      por 
-  
-        'locale' => 'es',
+```
