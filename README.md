@@ -1,4 +1,4 @@
-# Localización de Laravel 5.7 al español          
+# 🔥 Localización de Laravel 5.7 al español          
 
 ## Instalación:
 
