@@ -7,9 +7,9 @@ return [
 	| Validación del idioma
 	|--------------------------------------------------------------------------
 	|
-  | Las siguientes líneas de idioma contienen los mensajes de error predeterminados utilizados por
-  | La clase validadora. Algunas de estas reglas tienen múltiples versiones tales
-  | como las reglas de tamaño. Siéntase libre de modificar cada uno de estos mensajes aquí.
+        | Las siguientes líneas de idioma contienen los mensajes de error predeterminados utilizados por
+        | La clase validadora. Algunas de estas reglas tienen múltiples versiones tales
+        | como las reglas de tamaño. Siéntase libre de modificar cada uno de estos mensajes aquí.
 	|
 	*/
 
@@ -138,9 +138,9 @@ return [
 	| Atributos de validación personalizados
 	|--------------------------------------------------------------------------
 	|
-  | Las siguientes líneas de idioma se utilizan para intercambiar los marcadores de posición de atributo.
-  | con algo más fácil de leer, como la dirección de correo electrónico.
-  | de "email". Esto simplemente nos ayuda a hacer los mensajes un poco más limpios.
+        | Las siguientes líneas de idioma se utilizan para intercambiar los marcadores de posición de atributo.
+        | con algo más fácil de leer, como la dirección de correo electrónico.
+        | de "email". Esto simplemente nos ayuda a hacer los mensajes un poco más limpios.
 	|
 	*/
 
