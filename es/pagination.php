@@ -4,12 +4,12 @@ return array(
 
 	/*
 	|--------------------------------------------------------------------------
-	| Pagination Language Lines
+	| Paginación Líneas de lenguaje
 	|--------------------------------------------------------------------------
 	|
-	| The following language lines are used by the paginator library to build
-	| the pagination links. You're free to change them to anything you want.
-	| If you come up with something more exciting, let us know.
+  | Las siguientes lineas de paginación son usadas para los enlaces de paginación.
+  | Eres libre de cambiarlos a lo que quieras.
+  | Si se te ocurre algo más emocionante, háznoslo saber.
 	|
 	*/
 

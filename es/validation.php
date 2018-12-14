@@ -2,16 +2,17 @@
 
 return [
 
-    /*
-    |--------------------------------------------------------------------------
-    | Validation Language Lines
-    |--------------------------------------------------------------------------
-    |
-    | The following language lines contain the default error messages used by
-    | the validator class. Some of these rules have multiple versions such
-    | as the size rules. Feel free to tweak each of these messages here.
-    |
-    */
+	/*
+	|--------------------------------------------------------------------------
+	| Validación del idioma
+	|--------------------------------------------------------------------------
+	|
+  | Las siguientes líneas de idioma contienen los mensajes de error predeterminados utilizados por
+  | La clase validadora. Algunas de estas reglas tienen múltiples versiones tales
+  | como las reglas de tamaño. Siéntase libre de modificar cada uno de estos mensajes aquí.
+	|
+	*/
+
 
 	'accepted'              => 'El campo :attribute debe ser aceptado.',
 	'active_url'            => 'El campo :attribute no es una URL válida.',
@@ -107,20 +108,22 @@ return [
 		'string'  => 'El campo :attribute debe tener :size caracteres.',
 		'array'   => 'El campo :attribute debe contener :size elementos.',
 	],
+	'starts_with'           => 'El :attribute debe empezar con uno de los siguientes valores :values',
 	'string'                => 'El campo :attribute debe ser una cadena.',
 	'timezone'              => 'El campo :attribute debe ser una zona válida.',
 	'unique'                => 'El campo :attribute ya ha sido tomado.',
 	'uploaded'              => 'El campo :attribute no ha podido ser cargado.',	
 	'url'                   => 'El formato de :attribute es inválido.',
-
-  /*
+	'uuid'                  => 'El :attribute debe ser un UUID valido.',
+	
+	/*
 	|--------------------------------------------------------------------------
-	| Custom Validation Language Lines
+	| Validación del idioma personalizado
 	|--------------------------------------------------------------------------
 	|
-	| Here you may specify custom validation messages for attributes using the
-	| convention "attribute.rule" to name the lines. This makes it quick to
-	| specify a specific custom language line for a given attribute rule.
+	|	Aquí puede especificar mensajes de validación personalizados para atributos utilizando el
+	| convención "attribute.rule" para nombrar las líneas. Esto hace que sea rápido
+	| especifique una línea de idioma personalizada específica para una regla de atributo dada.
 	|
 	*/
 
@@ -132,17 +135,15 @@ return [
 
 	/*
 	|--------------------------------------------------------------------------
-	| Custom Validation Attributes
+	| Atributos de validación personalizados
 	|--------------------------------------------------------------------------
 	|
-	| The following language lines are used to swap attribute place-holders
-	| with something more reader friendly such as E-Mail Address instead
-	| of "email". This simply helps us make messages a little cleaner.
+  | Las siguientes líneas de idioma se utilizan para intercambiar los marcadores de posición de atributo.
+  | con algo más fácil de leer, como la dirección de correo electrónico.
+  | de "email". Esto simplemente nos ayuda a hacer los mensajes un poco más limpios.
 	|
 	*/
 
-	'attributes' => [
-		'username' => 'usuario',
-		'password' => 'contraseña'
-	],
+	'attributes' => [],
+	
 ];
