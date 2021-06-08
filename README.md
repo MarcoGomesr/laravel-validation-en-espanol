@@ -35,4 +35,4 @@
 ```
 
 ##### Author: Marco Gomes <http://marcogomesweb.com>
-##### Contribuidores: lcamacho franciscollanquipichun feltoxXx carlospc pupi1985 CarloRodriguez Briones    
+##### Contribuidores: lcamacho franciscollanquipichun feltoxXx carlospc pupi1985 CarloRodriguez Briones PedroBlanco
