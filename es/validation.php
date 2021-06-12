@@ -13,7 +13,7 @@ return [
 	|
 	*/
 
-
+	
 	'accepted'              => 'El campo :attribute debe ser aceptado.',
 	'active_url'            => 'El campo :attribute no es una URL válida.',
 	'after'                 => 'El campo :attribute debe ser una fecha después de :date.',
@@ -33,6 +33,7 @@ return [
 	'boolean'               => 'El campo :attribute debe ser verdadero o falso.',
 	'confirmed'             => 'El campo de confirmación de :attribute no coincide.',
 	'date'                  => 'El campo :attribute no es una fecha válida.',
+	'date_equals'			=> 'El campo :attribute debe ser una fecha igual a :date.',
 	'date_format' 	        => 'El campo :attribute no corresponde con el formato :format.',
 	'different'             => 'Los campos :attribute y :other deben ser diferentes.',
 	'digits'                => 'El campo :attribute debe ser de :digits dígitos.',
@@ -40,6 +41,7 @@ return [
 	'dimensions'            => 'El campo :attribute no tiene una dimensión válida.',
 	'distinct'              => 'El campo :attribute tiene un valor duplicado.',
 	'email'                 => 'El formato del :attribute es inválido.',
+	'ends_with'				=> 'El campo :attribute debe terminar con alguno de los valores: :values.',
 	'exists'                => 'El campo :attribute seleccionado es inválido.',
 	'file'                  => 'El campo :attribute debe ser un archivo.',
 	'filled'                => 'El campo :attribute es requerido.',
@@ -89,9 +91,11 @@ return [
 		'string'  => 'El campo :attribute debe tener al menos :min caracteres.',
 		'array'   => 'El campo :attribute debe tener al menos :min elementos.',
 	],
+	'multiple_of' 			=> 'El campo :attribute debe ser un múltiplo de :value.',
 	'not_in'                => 'El campo :attribute seleccionado es invalido.',
 	'not_regex'             => 'El formato del campo :attribute es inválido.',
 	'numeric'               => 'El campo :attribute debe ser un número.',
+	'password'				=> 'La contraseña es incorrecta.',
 	'present'               => 'El campo :attribute debe estar presente.',
 	'regex'                 => 'El formato del campo :attribute es inválido.',
 	'required'              => 'El campo :attribute es requerido.',
@@ -101,6 +105,9 @@ return [
 	'required_with_all'     => 'El campo :attribute es requerido cuando :values está presente.',
 	'required_without'      => 'El campo :attribute es requerido cuando :values no está presente.',
 	'required_without_all'  => 'El campo :attribute es requerido cuando ningún :values está presente.',
+    'prohibited' 			=> 'El campo :attribute está prohibido.',
+    'prohibited_if'			=> 'El campo :attribute está prohibido cuando :other es :value.',
+    'prohibited_unless'		=> 'El campo :attribute está prohibido si :other no está en :values.',
 	'same'                  => 'El campo :attribute y :other debe coincidir.',
 	'size'                  => [
 		'numeric' => 'El campo :attribute debe ser :size.',
