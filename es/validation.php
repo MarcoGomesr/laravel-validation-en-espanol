@@ -32,6 +32,7 @@ return [
         'array' => 'El campo :attribute debe tener entre :min y :max elementos.',
     ],
     'boolean' => 'El campo :attribute debe ser verdadero o falso.',
+    'can' => 'El campo :attribute contiene un valor no autorizado.',
     'confirmed' => 'El campo de confirmación de :attribute no coincide.',
     'current_password' => 'La contraseña actual no es correcta',
     'date' => 'El campo :attribute no es una fecha válida.',
@@ -73,7 +74,7 @@ return [
     'ipv4' => 'El campo :attribute debe ser una dirección IPv4 válida.',
     'ipv6' => 'El campo :attribute debe ser una dirección IPv6 válida.',
     'json' => 'El campo :attribute debe ser una cadena JSON válida.',
-     'lowercase' => 'El :attribute debe ser minusculas.', 
+    'lowercase' => 'El :attribute debe ser minusculas.',
     'lt' => [
         'numeric' => 'El campo :attribute debe ser menor que :max.',
         'file' => 'El campo :attribute debe ser menor que :max kilobytes.',
@@ -107,7 +108,7 @@ return [
     'missing_if' => 'El campo :attribute debe faltar cuando :other es :value',
     'missing_unless' => 'El campo :attribute debe faltar a menos que :other sea :value.',
     'missing_with' => 'El campo :attribute debe faltar cuando :values está presente.',
-    'missing_with_all' => 'El campo :attribute debe faltar cuando :values están presentes', 
+    'missing_with_all' => 'El campo :attribute debe faltar cuando :values están presentes',
     'multiple_of' => 'El campo :attribute debe ser un múltiplo de :value.',
     'not_in' => 'El campo :attribute seleccionado es invalido.',
     'not_regex' => 'El formato del campo :attribute no es válido.',
@@ -128,6 +129,7 @@ return [
     'required' => 'El campo :attribute es requerido.',
     'required_array_keys' => 'El campo :attribute debe contener entradas para: :values.',
     'required_if' => 'El campo :attribute es requerido cuando el campo :other es :value.',
+    'required_if_accepted' => 'El campo :attribute es requerido cuando :other es aceptado.',
     'required_unless' => 'El campo :attribute es requerido a menos que :other esté presente en :values.',
     'required_with' => 'El campo :attribute es requerido cuando :values está presente.',
     'required_with_all' => 'El campo :attribute es requerido cuando :values está presente.',
@@ -145,9 +147,9 @@ return [
     'timezone' => 'El campo :attribute debe ser una zona válida.',
     'unique' => 'El campo :attribute ya ha sido tomado.',
     'uploaded' => 'El campo :attribute no ha podido ser cargado.',
-    'uppercase' => 'El :attribute debe estar en mayúsculas', 
+    'uppercase' => 'El :attribute debe estar en mayúsculas',
     'url' => 'El formato de :attribute no es válido.',
-    'ulid' => 'El :attribute debe ser un ULID valido.', 
+    'ulid' => 'El :attribute debe ser un ULID valido.',
     'uuid' => 'El :attribute debe ser un UUID valido.',
 
     'password.mixed' => 'El :attribute debe contener al menos una letra mayúscula y una minúscula.',
@@ -161,7 +163,7 @@ return [
     | Validación del idioma personalizado
     |--------------------------------------------------------------------------
     |
-    |   Aquí puede especificar mensajes de validación personalizados para atributos utilizando el
+    | Aquí puede especificar mensajes de validación personalizados para atributos utilizando el
     | convención "attribute.rule" para nombrar las líneas. Esto hace que sea rápido
     | especifique una línea de idioma personalizada específica para una regla de atributo dada.
     |
