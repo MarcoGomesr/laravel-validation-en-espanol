@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
 
     /*
@@ -16,6 +18,7 @@ return [
     'password' => 'Las contraseñas deben contener al menos 6 caracters y coincidir.',
     'reset' => 'Su contraseña ha sido cambiada.',
     'sent' => 'Le hemos enviado un correo de cambio de contraseña!',
+    'throttled' => 'Por favor espere antes de intentar de nuevo.',
     'token' => 'El código de cambio de contraseña es inválido.',
     'user' => "No podemos encontrar un usuario con ese nombre.",
 

@@ -1,38 +1,23 @@
-# 🔥 Localización de Laravel ~~5.7~~ 8 al español          
+# Localización de Laravel  al español
 
 ## Instalación
 
 ### A traves de la Terminal
 
-1. Copiamos el repositorio `https://github.com/MarcoGomesr/laravel-validation-en-espanol.git`
-2. Luego nos dirigimos al root de nuestro proyecto
-3. Clonamos el repositorio `git clone` en la ruta `resources/lang/es` (por defecto git creará la carpeta `es`, si la carpeta ya existe git te mostrará una alerta y tendrás que eliminarla o modificar su nombre )
-4. Así deberá verse una vez estés en el root 
+1. Copiamos el repositorio y lo clonamos en la carpeta carpeta raiz dentro de una carpeta llamada `lang` 
+
+
+
  
-``` git clone https://github.com/MarcoGomesr/laravel-validation-en-espanol.git resources/lang/es ```
+``` git clone https://github.com/MarcoGomesr/laravel-validation-en-espanol.git lang ```
 
 
 ### De forma Manual
 
-1. Descargar la carpeta `es` y colocarla dentro del directorio `/resources/lang/` de tu proyecto.
-2. Abrir el archivo `/config/app.php` y reemplazar el valor de la variable `locale` por `es`.
+1. crea una carpeta llamada `lang` en la raiz de tu projecto y descargar el contenido del repositorio en él
 
-```php
 
-  /*
-  |--------------------------------------------------------------------------
-  | Application Locale Configuration
-  |--------------------------------------------------------------------------
-  |
-  | The application locale determines the default locale that will be used
-  | by the translation service provider. You are free to set this value
-  | to any of the locales which will be supported by the application.
-  |
-  */
+### Configuración
+Para activarlo solo debes abrir el archivo `.env` y editarla variable de estorno APP_LOCALE para que sea igual a 'es' de esta manera `APP_LOCALE=es`
 
-  'locale' => 'es',
 
-```
-
-##### Author: Marco Gomes <http://marcogomesweb.com>
-##### Contribuidores: lcamacho franciscollanquipichun feltoxXx carlospc pupi1985 CarloRodriguez Briones PedroBlanco
