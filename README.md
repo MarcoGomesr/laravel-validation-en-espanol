@@ -2,7 +2,7 @@
 
 ## Instalación
 
-### A traves de la Terminal
+### A través de la Terminal
 
 1. Copiamos el repositorio y lo clonamos en la carpeta carpeta raiz dentro de una carpeta llamada `lang` 
 
